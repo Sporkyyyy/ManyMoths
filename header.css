@@ -1,0 +1,104 @@
+
+.header{
+    text-align: center;
+    color:  #c9c9c9;
+    padding: 0 10px;
+    overflow:  hidden;
+    font-size: 25px;
+    width: 100%;
+}
+
+/* Navigation bar */
+.topnav {
+    background-color: #37462b;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Changes the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Adds an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hides the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  @media only screen and (min-width:768px) {
+    
+  }
+
+  /* Reset some default browser styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Ensures the content stays within the header bounds */
+}
+
+.header-image {
+  width: 100%; /* Image takes full width of the header */
+  height: 5%; /* Maintain aspect ratio */
+  display: block; /* Remove space below the image */
+  object-fit: cover; /* Cover the container, cropping if necessary */
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Text color */
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for readability */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+.header-content h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.header-content p {
+  font-size: 1.2em;
+
+}
+.image-credit {
+  bottom: px;
+  right: 10px;
+  color: white;
+  font-size: 0.5em;
+  padding: 5px;
+  border-radius: 5px; /* Rounded corners for background */
+}
+
+.image-credit a {
+  color: #00bfff; /* Link color */
+  text-decoration: none;
+}
+
+.image-credit a:hover {
+  text-decoration: underline;
+}

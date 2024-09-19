@@ -1,0 +1,25 @@
+footer {
+    background-color: #283618;
+    padding: 10px 0 4px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: #283618;
+    color: white;
+    outline: none;
+    
+}
+
+footer img {
+    height: 22px; 
+    margin-left: 3px; 
+    vertical-align:text-bottom;
+}
